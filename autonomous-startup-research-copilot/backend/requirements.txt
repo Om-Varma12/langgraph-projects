@@ -1,4 +1,3 @@
 langchain
 python-dotenv
 langchain-groq
-ipykernel
