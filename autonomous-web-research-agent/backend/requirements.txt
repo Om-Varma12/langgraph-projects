@@ -1,0 +1,7 @@
+langgraph
+langchain-groq
+dotenv
+ipython
+langchain
+tavily
+trafilatura
