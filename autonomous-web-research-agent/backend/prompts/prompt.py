@@ -9,8 +9,8 @@ Guidelines:
 - Avoid duplicate or repetitive queries.
 - Prefer practical and information-rich searches.
 - Include recent trends, comparisons, examples, tools, statistics, or best practices when relevant.
-- Generate 4 to 8 search queries depending on the complexity of the topic.
-
+- Generate 2 to 3 search queries depending on the complexity of the topic.
+- Max queries to generate must be 3.
 Return ONLY valid JSON.
 
 Output Format:
