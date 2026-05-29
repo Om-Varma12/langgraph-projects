@@ -13,4 +13,5 @@ dependencies = [
     "langgraph>=1.2.1",
     "tavily>=1.1.0",
     "trafilatura>=2.0.0",
+    "uvicorn>=0.48.0",
 ]
