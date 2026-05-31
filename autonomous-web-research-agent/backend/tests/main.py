@@ -3,12 +3,17 @@ from graph.builder import research_graph
 
 initial_state = {
     "topic": "Future of autonomous AI coding agents",
+    "research_plan": "",
     "search_queries": [],
-    "search_results": [],
-    "visited_urls": [],
-    "findings": [],
-    "is_research_complete": False,
+    "subagent_tasks": [],
+    "verification_focus": [],
+    "current_search_results": [],
+    "current_subagent_findings": [],
+    "verified_findings": [],
+    "warnings": [],
+    "missing_areas": [],
     "iteration": 0,
+    "max_iterations": 2,
     "final_report": ""
 }
 

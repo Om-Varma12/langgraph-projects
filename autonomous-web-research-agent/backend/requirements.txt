@@ -4,4 +4,6 @@ dotenv
 ipython
 langchain
 tavily
+langchain-tavily
 trafilatura
+uvicorn
