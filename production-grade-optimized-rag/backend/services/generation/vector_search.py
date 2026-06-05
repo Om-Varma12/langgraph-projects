@@ -1,0 +1,2 @@
+def search(embeddedQuery):
+    pass

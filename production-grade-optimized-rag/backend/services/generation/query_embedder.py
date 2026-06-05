@@ -1,0 +1,2 @@
+def embedQuery(query):
+    pass
