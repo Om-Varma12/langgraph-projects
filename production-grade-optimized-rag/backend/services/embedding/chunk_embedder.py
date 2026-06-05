@@ -1,0 +1,2 @@
+def embeddChunk(chunk):
+    pass
