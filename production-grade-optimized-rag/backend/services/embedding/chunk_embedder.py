@@ -18,7 +18,7 @@ def embedd(chunks: list[str]) -> list[dict]:
 
     data = {
         "model": "jina-embeddings-v5-text-small",
-        "task": "retrieval.query",
+        "task": "retrieval.passage",
         "normalized": True,
         "input": chunks
     }

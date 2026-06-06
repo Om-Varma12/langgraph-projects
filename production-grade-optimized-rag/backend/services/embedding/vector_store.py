@@ -14,13 +14,16 @@ def get_collection():
 
 
 def store(embedded_chunks: list[dict]):
-    print('store started')
-    
+    print("store started")
+
     collection = get_collection()
+
+    for i, chunk in enumerate(embedded_chunks, start=1):
+        chunk["chunk_id"] = i
 
     result = collection.insert_many(embedded_chunks)
 
     print(f"Inserted {len(result.inserted_ids)} chunks")
-    
-    print('store ended')
+    print("store ended")
+
     return True

@@ -12,4 +12,4 @@ def ingest(pdfName):
     print('done')
     
     
-ingest('Shortlisted.pdf')
+ingest('specforge.pdf')
